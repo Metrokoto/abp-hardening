@@ -1,0 +1,7 @@
+[Adblock Plus 3.6]
+! Title: ABP Hardening - Block WebRTC
+! Version: 10 August 2025
+! Homepage: https://github.com/Metrokoto/abp-hardening
+! Expires: 7 days (update frequency)
+! Syntax: AdBlock
+||*^$webrtc
