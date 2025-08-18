@@ -2,7 +2,7 @@
 ! Title: Block LAN for AdBlock Plus
 ! Description: Prevent adversaries from sending unauthorized requests to your LAN & loopback!
 ! Version: 16 June 2025
-! Homepage: https://github.com/Metrokoto/block-lan-abp
+! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 ! Syntax: AdBlock
 
