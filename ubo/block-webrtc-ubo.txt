@@ -1,0 +1,6 @@
+! Title: ABP Hardening - Block WebRTC for uBlock Origin
+! Version: 21 Feb 2026
+! Description: Prevent adversaries from sending unauthorized requests using WebRTC!
+! Homepage: https://github.com/Metrokoto/abp-hardening
+! Expires: 7 days (update frequency)
+*##+js(no-webrtc)
