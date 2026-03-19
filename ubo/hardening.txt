@@ -1,0 +1,9 @@
+! Title: uBlock Origin Hardening
+! Version: 21 Mar 2026
+! Description: Various filters for hardening uBlock Origin!
+! Homepage: https://github.com/Metrokoto/abp-hardening
+! Expires: 7 days (update frequency)
+
+!#include block-lan-ubo.txt
+!#include block-requests-ubo.txt
+!#include block-webrtc-ubo.txt
