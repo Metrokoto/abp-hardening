@@ -1,6 +1,6 @@
 ! Title: Block LAN for uBlock Origin
 ! Description: Prevent adversaries from sending unauthorized requests to your LAN & loopback!
-! Version: 19 Mar 2026
+! Version: 3 Apr 2026
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 
@@ -43,6 +43,7 @@
 ||myfritz.box^$important,strict-third-party
 ||mygateway^$important,strict-third-party
 ||ntt.setup^$important,strict-third-party
+||opnsense.local^$important,strict-third-party
 ||pi.hole^$important,strict-third-party
 ||plex.direct^$important,strict-third-party
 ||repeater.asus.com^$important,strict-third-party
