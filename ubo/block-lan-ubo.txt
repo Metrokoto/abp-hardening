@@ -104,5 +104,7 @@
 !#endif
 
 !#if env_chromium
-*$important,document,permissions=local-network=()|loopback-network=()|local-network-access=()
+*$important,document,permissions=local-network=()
+*$important,document,permissions=loopback-network=()
+*$important,document,permissions=local-network-access=()
 !#endif
