@@ -99,12 +99,10 @@
 /^203\.0\.113\.\d{1,3}$/^$important,strict-third-party
 /^2[2-9]\d\.\d{1,3}\.\d{1,3}\.\d{1,3}$/^$important,strict-third-party
 /^233\.252\.\d{1,3}\.\d{1,3}$/^$important,strict-third-party
-/^2[4-9]\d\.\d{1,3}\.\d{1,3}\.\d{1,3}$/^$important,,strict-third-party
+/^2[4-9]\d\.\d{1,3}\.\d{1,3}\.\d{1,3}$/^$important,strict-third-party
 /^255\.255\.255\.255$/^$important,strict-third-party
 !#endif
 
 !#if env_chromium
-*$important,document,permissions=local-network
-*$important,document,permissions=loopback-network
-*$important,document,permissions=local-network-access
+*$important,document,permissions=local-network=()|loopback-network=()|local-network-access=()
 !#endif
