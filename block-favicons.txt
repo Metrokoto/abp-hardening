@@ -29,8 +29,12 @@
 _favicon_*.ico|
 
 ! Now, it's time to add more coverage
+/apple-touch-icon.png|
+/apple-touch-icon.png?
 /assets/icons/*
 /fluidicon.png|
-/apple-touch-icon.png|
+/fluidicon.png?
+/favicon.png?
+/favicon.svg?
 /icon.svg|
 /icon.svg?
