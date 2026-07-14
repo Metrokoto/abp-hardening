@@ -28,6 +28,7 @@
 /media/favicon/*
 /web/favicons/*
 _favicon_*.ico|
+.php/*.ico|$domain=cdninstagram.com|fbcdn.net
 
 ! Coverage for common icon file paths
 
@@ -113,6 +114,8 @@ _favicon_*.ico|
 /favicons/*.*|
 
 /favicons/*.*?
+
+.php/*.ico?$domain=cdninstagram.com|fbcdn.net
 
 ! Coverage for icon files with randomly generated file names
 
