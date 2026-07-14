@@ -30,8 +30,32 @@ _favicon_*.ico|
 
 ! Now, it's time to add more coverage
 /assets/icons/*
+/icons/favicon/*
 /icons/favicons/*
 /splashicons/*
 
 ! I think this calls for some regex
 /\/(?:favicon|icon|apple-touch-icon|fluidicon)[^\/?#]*(?:[?#]|$)/
+
+! Coverage for overlooked icon types
+/apple-touch-icon.png|
+/apple-touch-icon-*.png|
+/apple-touch-icon.*.png|
+/apple-touch-icon.png?
+/apple-touch-icon-*.png?
+/apple-touch-icon.*.png?
+/ios-ipad-*.png|
+/ios-iphone-*.png|
+/ios-ipod-*.png|
+/ios-ipad-*.png?
+/ios-iphone-*.png?
+/ios-ipod-*.png?
+/fluidicon.png|
+/fluidicon-*.png|
+/fluidicon.*.png|
+/fluidicon.png?
+/fluidicon-*.png?
+/fluidicon.*.png?
+
+! Coverage for random file names
+/*.ico|
