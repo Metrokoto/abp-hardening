@@ -40,6 +40,7 @@
 /bloomreach*$important,script
 /bouncex.js$important,script
 /bquery.js$important,script
+/cdn-cgi/speculation$important,other
 /cdn-cgi/trace$important,xmlhttprequest
 /cdn-net.js$important,script
 /cookie-notice.*$important,script
