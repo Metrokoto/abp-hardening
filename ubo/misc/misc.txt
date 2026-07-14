@@ -56,9 +56,9 @@
 /google_pubads.js$important,script
 /gtgmeasurement$important,script,xmlhttprequest
 /gtm.js$important,script
-/ingest$important,script,xmlhttprequest
 /Imprint.js$important,script
 /infoscore-tracking-technology.js$important,script
+/ingest$important,script,xmlhttprequest
 /inside-graph.js$important,script
 /liverail.js$important,script
 /malvertising_css.js$important,script
