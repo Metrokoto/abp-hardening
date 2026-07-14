@@ -1,6 +1,6 @@
 [Adblock Plus 3.6]
 ! Title: ABP Hardening - Misc filters
-! Version: 14 July 2025
+! Version: 14 July 2026
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 ! Syntax: AdBlock
