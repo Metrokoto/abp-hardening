@@ -7,6 +7,7 @@
 
 ! Rules pulled from DandelionSprout this way I can make them work on uBOL as well as AdBlock Plus.
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Special%20security%20lists/AntiFaviconList.txt
+
 /favicon.ico|
 /favicon.png|
 /favicon.svg|
@@ -28,34 +29,92 @@
 /web/favicons/*
 _favicon_*.ico|
 
-! Now, it's time to add more coverage
+! Coverage for common icon file paths
+
 /assets/icons/*
 /icons/favicon/*
 /icons/favicons/*
+/favicons/*
+/favicon/*
 /splashicons/*
 
-! I think this calls for some regex
+! Regex coverage for the commonly used icon file names
+
 /\/(?:favicon|icon|apple-touch-icon|fluidicon)[^\/?#]*(?:[?#]|$)/
 
-! Coverage for overlooked icon types
-/apple-touch-icon.png|
-/apple-touch-icon-*.png|
-/apple-touch-icon.*.png|
-/apple-touch-icon.png?
-/apple-touch-icon-*.png?
-/apple-touch-icon.*.png?
-/ios-ipad-*.png|
-/ios-iphone-*.png|
-/ios-ipod-*.png|
-/ios-ipad-*.png?
-/ios-iphone-*.png?
-/ios-ipod-*.png?
-/fluidicon.png|
-/fluidicon-*.png|
-/fluidicon.*.png|
-/fluidicon.png?
-/fluidicon-*.png?
-/fluidicon.*.png?
+! Coverage for overlooked icon file types
 
-! Coverage for random file names
+/apple-touch-icon.*|
+/apple-touch-icon-*.*|
+/apple-touch-icon.*.*|
+
+/apple-touch-icon.*?
+/apple-touch-icon-*.*?
+/apple-touch-icon.*.*?
+
+/ios-ipad-*.*|
+/ios-ipad-pro-*.*|
+/ios-iphone-*.*|
+/ios-ipod-*.*|
+/ios-notification-*.*|
+
+/ios-ipad-*.*?
+/ios-ipad-pro-*.*?
+/ios-iphone-*.*?
+/ios-ipod-*.*?
+/ios-notification-*.*?
+
+/fluidicon.*|
+/fluidicon-*.*|
+/fluidicon.*.*|
+
+/fluidicon.*?
+/fluidicon-*.*?
+/fluidicon.*.*?
+
+! Coverage for other various favicon file name formats
+
+/cropped-favicon.*|
+/cropped-favicon-*.*|
+/cropped-favicon.*.*|
+
+/cropped-favicon.*?
+/cropped-favicon-*.*?
+/cropped-favicon.*.*?
+
+/favicon.*|
+/favicon-*.*|
+/favicon.*.*|
+
+/favicon.*?
+/favicon-*.*?
+/favicon.*.*?
+
+/favico.*|
+/favico-*.*|
+/favico.*.*|
+
+/favico.*?
+/favico-*.*?
+/favico.*.*?
+
+/favicon_*.*|
+
+/favicon_*.*?
+
+/favicon_*_*.*|
+
+/favicon_*_*.*?
+
+/favicon_v*.*|
+
+/favicon_v*.*?
+
+/favicons/*.*|
+
+/favicons/*.*?
+
+! Coverage for icon files with randomly generated file names
+
 /*.ico|
+/*.ico?
