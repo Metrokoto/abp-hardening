@@ -9,9 +9,11 @@
 /detect-font-loading*$important,script
 /evercookie/*$important
 /evercookie*$important,script
+/fingerprint*$important,script
 /font-detect*$important,script
 /fontdetect*$important,script
 /font-detective*$important,script
+/hsts*$important,script
 /jquery.browser-fingerprint*$important,script
 /js-murmur*$important,script
 /machineSecret.js$important,script
