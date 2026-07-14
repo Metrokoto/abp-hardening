@@ -32,6 +32,7 @@
 /adscore.js$script
 /afk-media.js$script
 /analytics-engine.js$script
+/api/ip$xmlhttprequest
 /areyouahuman.js$script
 /arkoselabs.js$script
 /augur.js$script
