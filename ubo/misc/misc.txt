@@ -31,6 +31,7 @@
 /adscore.js$important,script
 /afk-media.js$important,script
 /analytics-engine.js$important,script
+/api/ip$important,xmlhttprequest
 /areyouahuman.js$important,script
 /arkoselabs.js$important,script
 /augur.js$important,script
@@ -39,11 +40,13 @@
 /bloomreach*$important,script
 /bouncex.js$important,script
 /bquery.js$important,script
+/cdn-cgi/trace$important,xmlhttprequest
 /cdn-net.js$important,script
 /cookie-notice.*$important,script
 /datadome.js$important,script
 /distillnetworks.js$important,script
 /doubleverify.js$important,script
+/error-*$important,script
 /exception-*.*$important,script
 /fbevents.js$important,script
 /fingerprint2.js$important,script
