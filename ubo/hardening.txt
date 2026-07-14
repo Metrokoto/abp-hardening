@@ -7,4 +7,4 @@
 !#include block-lan-ubo.txt
 !#include block-requests-ubo.txt
 !#include block-webrtc-ubo.txt
-!#include /misc/misc.txt
+!#include misc/misc.txt
