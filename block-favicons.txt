@@ -1,3 +1,4 @@
+
 [Adblock Plus 3.6]
 ! Title: ABP Hardening - Block Favicons
 ! Version: 14 July 2026
@@ -32,3 +33,4 @@ _favicon_*.ico|
 /assets/icons/*
 /fluidicon.png|
 /apple-touch-icon.png|
+/icon.svg|
