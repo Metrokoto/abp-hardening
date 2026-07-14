@@ -1,5 +1,5 @@
 ! Title: Misc filters for uBlock Origin
-! Version: 5 July 2025
+! Version: 15 July 2025
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 ! Syntax: AdBlock
@@ -9,11 +9,9 @@
 /detect-font-loading*$important,script
 /evercookie/*$important
 /evercookie*$important,script
-#/fingerprint*$important,script
 /font-detect*$important,script
 /fontdetect*$important,script
 /font-detective*$important,script
-#/hsts*$important,script
 /jquery.browser-fingerprint*$important,script
 /js-murmur*$important,script
 /machineSecret.js$important,script
@@ -44,18 +42,19 @@
 /datadome.js$important,script
 /distillnetworks.js$important,script
 /doubleverify.js$important,script
-/exception-reporter.*$important,script
+/exception-*.*$important,script
 /fbevents.js$important,script
 /fingerprint2.js$important,script
 /fingerprintjs_commercial.js$important,script
 /forter.js$important,script
-/fraud-detector.*$important,script
+/fraud-*.*$important,script
 /fraudmetrix.js$important,script
 /GAFirebase.js$important,script
 /giveaway_spam.js$important,script
 /google_pubads.js$important,script
 /gtgmeasurement$important,script,xmlhttprequest
 /gtm.js$important,script
+/ingest$important,script,xmlhttprequest
 /Imprint.js$important,script
 /infoscore-tracking-technology.js$important,script
 /inside-graph.js$important,script
@@ -64,6 +63,7 @@
 /malvertising.js$important,script
 /maxmind_device.js$important,script
 /meinkauf.js$important,script
+/metrics$important,script,xmlhttprequest
 /moatads.js$important,script
 /perimeterx.js$important,script
 /pixelbundle.js$important,script
