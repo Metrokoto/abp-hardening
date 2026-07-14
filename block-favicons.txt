@@ -33,3 +33,4 @@ _favicon_*.ico|
 /fluidicon.png|
 /apple-touch-icon.png|
 /icon.svg|
+/icon.svg?
