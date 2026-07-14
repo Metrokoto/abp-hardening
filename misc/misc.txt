@@ -40,11 +40,13 @@
 /bloomreach*$script
 /bouncex.js$script
 /bquery.js$script
+/cdn-cgi/trace$xmlhttprequest
 /cdn-net.js$script
 /cookie-notice.*$script
 /datadome.js$script
 /distillnetworks.js$script
 /doubleverify.js$script
+/error-*$script
 /exception-*.*$script
 /fbevents.js$script
 /fingerprint2.js$script
