@@ -29,12 +29,9 @@
 _favicon_*.ico|
 
 ! Now, it's time to add more coverage
-/apple-touch-icon.png|
-/apple-touch-icon.png?
 /assets/icons/*
-/fluidicon.png|
-/fluidicon.png?
-/favicon.png?
-/favicon.svg?
-/icon.svg|
-/icon.svg?
+/icons/favicons/*
+/splashicons/*
+
+! I think this calls for some regex
+/\/(?:favicon|icon|apple-touch-icon|fluidicon)[^\/?#]*(?:[?#]|$)/
