@@ -1,6 +1,6 @@
 [Adblock Plus 3.6]
 ! Title: ABP Hardening - Misc filters
-! Version: 5 July 2025
+! Version: 14 July 2025
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 ! Syntax: AdBlock
@@ -10,11 +10,11 @@
 /detect-font-loading*$script
 /evercookie/*
 /evercookie*$script
-#/fingerprint*$script
+/fingerprint*$script
 /font-detect*$script
 /fontdetect*$script
 /font-detective*$script
-#/hsts*$script
+/hsts*$script
 /jquery.browser-fingerprint*$script
 /js-murmur*$script
 /machineSecret.js$script
@@ -45,12 +45,12 @@
 /datadome.js$script
 /distillnetworks.js$script
 /doubleverify.js$script
-/exception-reporter.*$script
+/exception-*.*$script
 /fbevents.js$script
 /fingerprint2.js$script
 /fingerprintjs_commercial.js$script
 /forter.js$script
-/fraud-detector.*$script
+/fraud-*.*$script
 /fraudmetrix.js$script
 /GAFirebase.js$script
 /giveaway_spam.js$script
@@ -59,12 +59,15 @@
 /gtm.js$script
 /Imprint.js$script
 /infoscore-tracking-technology.js$script
+/ingest$script,xmlhttprequest
 /inside-graph.js$script
 /liverail.js$script
 /malvertising_css.js$script
 /malvertising.js$script
 /maxmind_device.js$script
 /meinkauf.js$script
+/metrics$script,xmlhttprequest
+/ingest$script,xmlhttprequest
 /moatads.js$script
 /perimeterx.js$script
 /pixelbundle.js$script
