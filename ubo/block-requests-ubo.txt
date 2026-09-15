@@ -1,6 +1,6 @@
 ! Title: Request Type Filters for uBlock Origin
 ! Description: Prevent adversaries from sending unauthorized requests!
-! Version: 8 May 2026
+! Version: 15 September 2026
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 |http://
@@ -8,6 +8,5 @@
 |ftp://
 |wss://
 *$object
-*$other
 *$ping
 *$websocket
