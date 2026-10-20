@@ -47,7 +47,7 @@
 /datadome.js$important,script
 /distillnetworks.js$important,script
 /doubleverify.js$important,script
-/error-*$important,script
+/error-*$important,script,domain=~github.com
 /exception-*.*$important,script
 /fbevents.js$important,script
 /fingerprint2.js$important,script
