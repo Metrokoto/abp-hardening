@@ -1,5 +1,5 @@
 ! Title: Misc filters for uBlock Origin
-! Version: 8 November 2026
+! Version: 12 November 2026
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 ! Syntax: AdBlock
@@ -32,6 +32,8 @@
 /afk-media.js$important,script
 /analytics-engine.js$important,script
 /api/ip$important,xmlhttprequest
+/api/record$$important,xmlhttprequest
+/api/send$important,xmlhttprequest
 /areyouahuman.js$important,script
 /arkoselabs.js$important,script
 /augur.js$important,script
@@ -71,12 +73,18 @@
 /meinkauf.js$important,script
 /metrics$important,script,xmlhttprequest
 /moatads.js$important,script
+/monitoring$important,xmlhttprequest
 /perimeterx.js$important,script
 /pixelbundle.js$important,script
 /popads.js$important,script
+/recorder.js$important,script
 /relic.js$important,script
 /risk.*$important,script,xmlhttprequest
 /rsi.js$important,script
+/sbbi$important,subdocument,image
+/script.js$important,script
+/sentry.js$important,script
+/sentry.json$important,xmlhttprequest
 /shortest.js$important,script
 /siftscience.js$important,script
 /simility.js$important,script
