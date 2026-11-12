@@ -32,7 +32,7 @@
 /afk-media.js$important,script
 /analytics-engine.js$important,script
 /api/ip$important,xmlhttprequest
-/api/record$$important,xmlhttprequest
+/api/record$important,xmlhttprequest
 /api/send$important,xmlhttprequest
 /areyouahuman.js$important,script
 /arkoselabs.js$important,script
