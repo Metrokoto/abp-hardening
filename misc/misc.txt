@@ -1,6 +1,6 @@
 [Adblock Plus 3.6]
 ! Title: ABP Hardening - Misc filters
-! Version: 8 November 2026
+! Version: 12 November 2026
 ! Homepage: https://github.com/Metrokoto/abp-hardening
 ! Expires: 7 days (update frequency)
 ! Syntax: AdBlock
@@ -33,6 +33,8 @@
 /afk-media.js$script
 /analytics-engine.js$script
 /api/ip$xmlhttprequest
+/api/record$xmlhttprequest
+/api/send$xmlhttprequest
 /areyouahuman.js$script
 /arkoselabs.js$script
 /augur.js$script
@@ -41,6 +43,7 @@
 /bloomreach*$script
 /bouncex.js$script
 /bquery.js$script
+/cdn-cgi/speculation$other
 /cdn-cgi/trace$xmlhttprequest
 /cdn-net.js$script
 /cookie-notice.*$script
@@ -70,14 +73,19 @@
 /maxmind_device.js$script
 /meinkauf.js$script
 /metrics$script,xmlhttprequest
-/ingest$script,xmlhttprequest
 /moatads.js$script
+/monitoring$xmlhttprequest
 /perimeterx.js$script
 /pixelbundle.js$script
 /popads.js$script
+/recorder.js$script
 /relic.js$script
 /risk.*$script,xmlhttprequest
 /rsi.js$script
+/sbbi$subdocument,image
+/script.js$script
+/sentry.js$script
+/sentry.json$xmlhttprequest
 /shortest.js$script
 /siftscience.js$script
 /simility.js$script
